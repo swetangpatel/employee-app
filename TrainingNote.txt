@@ -1,0 +1,40 @@
+As mentioned in the last IT Thursday, we’re introducing a React training program.
+
+The aim of this program is to help individuals get up to speed in React JS with TypeScript. The core concepts of React will be covered within a one-month period.
+
+The challenge is to build a web application that interacts with a RESTful API and allows users to perform CRUD operations utilizing ReactJS, TypeScript, Formik or react-hook-form and RxJs.
+
+Prerequisite: Good understanding of JavaScript and web development principles
+
+API: https://procom-interview-employee-test.azurewebsites.net
+
+Week 1: Walking Skeleton
+•	Create the TypeScript React Project (with Create React App template)
+•	Add MUI and Axios
+•	Analyze the API and come up with an overall React app skeleton.
+•	Create Employee list component - utilize useState, useEffect hooks
+
+Week 2: Start CRUD components
+•	Create component for Employee create
+•	Add Routing
+•	Implement form library – Formik or react-hook-form (Bonus for learning both, create two versions of form components with each library)
+Week 3: Form Validation and backend integration
+•	Add components for employee edit and delete
+•	Implement form validation with Yup
+•	Integrate all the api calls and handle backend errors
+
+Week 4: State management and Performance optimization
+•	Implement RxJs for state management. Prevent prop-drilling
+•	Add memoization utilizing useCallBack() and useMemo()
+•	Optimize performance, component structure and prevent memory leaks
+•	Code cleanup and Review
+
+
+Desired outcomes and learnings:
+•	Full TypeScript utilization - strongly typed variables, functions and components
+•	Hooks are everything – you need to know exactly how they work
+•	Think about the user when building UI elements
+•	Design components with render cycles in mind. Prevent wasted render cycles 
+•	Separation of concerns between components and services
+•	Identify common components and re-use
+•	Monitor browser console and network tab. Project should be error free and should not have any duplicate api calls
